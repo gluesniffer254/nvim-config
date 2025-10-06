@@ -10,6 +10,7 @@
 
 Metric System Prefixes
 
+#block(inset: (x: 2em))[
 Prefix		Symbol	Meaning
 femto-		f		x 1/1,000,000,000,000,000 (10-15)\
 pico-		p		x 1/1,000,000,000,000 (10-12)\
@@ -22,7 +23,7 @@ kilo-		k		x 1,000 (103)\
 mega-		M		x 1,000,000 (106)\
 giga-		G		x 1,000,000,000 (109)\
 tera-		T		x 1,000,000,000,000 (1012)\
-
+]
 
 
 = Elemente
@@ -33,12 +34,21 @@ tera-		T		x 1,000,000,000,000 (1012)\
 Elementele sunt substante alcatuite dintr-un singur tip de atom. Ele nu pot fi descompuse in substante mai simple prin reactii chimice. De exemplu, apa poate fi descompusa in hidrogen si oxigen, dar hidrogenul si oxigenul nu pot fi descompuse mai departe – sunt elemente.
 
 Fiecare element are un simbol unic, notat in tabelul periodic.
-
+#block(inset: (x: 2em))[
 Elementele se impart in trei grupe:
-
+#block(inset: (x: 2em))[
 metale (majoritatea, situate in partea stanga si jos a tabelului),
 
 nemetale (cateva, in coltul dreapta sus),
 
 semimetale (pe linia de sepa:w
 rare intre metale si nemetale).
+]]
+
+#figure(
+  image("tabel_periodic.jpg", width: 50%),
+  caption: [
+    ],
+)
+
+
